@@ -28,5 +28,21 @@ public class loops {
                 System.out.println(num);  
             }
         }
+
+        //while loops
+
+        /*
+         Syntax:-
+
+         while(condition){
+            //body 
+         }
+         */
+
+         int num = 1;
+            while(num<=5){
+                System.out.println(num);
+                num+=1;
+            }
     }
 }
