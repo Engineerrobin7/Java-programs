@@ -1,4 +1,4 @@
-package com.robin;
+package robin;
 import java.util.Scanner;
 public class Alphabercheck {
     public static void main(String[] args) {
