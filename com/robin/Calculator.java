@@ -30,16 +30,19 @@ public class Calculator {
                         continue;
                     }
                 } else if (op == '%') {
-                    ans = num1 % num2;
+                    if (num2 != 0) {
+                        ans = num1 % num2;
+                    } else {
+                        System.out.println("Modulo by zero is not allowed!");
+                        continue;
+                    }
                 }
+                System.out.println("The result is: " + ans);
             } else if (op == 'x' || op == 'X') {
                 break;
             } else {
                 System.out.println("Invalid Operator!!");
-                continue;
             }
-
-            System.out.println("The result is: " + ans);
         }
 
         in.close();
