@@ -10,6 +10,8 @@ public class TypeCasting {
 
         int a = 257;
         byte b = (byte)(a);
-        System.out.println(b * 50); // Corrected line; // Corrected line
+        System.out.println(b * 50);
+
+        input.close();
     }
 }
